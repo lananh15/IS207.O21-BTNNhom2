@@ -1,0 +1,103 @@
+#maytinh{
+    position:absolute;
+    border:1px solid black;
+    width:450px;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#manhinhhienthi{
+    height:100px;
+    border:1px solid black;
+    width:424px;
+    margin:13px;
+    margin-bottom:0;
+}
+#dongpheptinh, #dongketqua{
+    font-size:28px;
+    color:grey;
+    height:40px;
+}
+#dongketqua{
+    text-align:right;
+}
+/* dinh dang cho dong hien thi phep tinh khi dai
+    qua muc se hien thi ... */
+#pheptinh{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+/* dinh dang cho cac button CE, DEL */
+button{
+    height:100%;
+    width:100%;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+}
+#CE-btn{
+    color:white;
+    font-size:30px;
+    background-color: rgb(217,83,79);
+}
+#CE-btn:active{
+    background-color: rgb(185, 71, 67);
+}
+#Del-btn{
+    color:white;
+    font-size:30px;
+    background-color: rgb(240,173,78);
+}
+#Del-btn:active{
+    background-color: rgb(210, 151, 68);
+}
+
+table{
+    border-spacing: 6px;
+}
+#banphim{
+    width:435px;
+    margin:7px;
+}
+#banphim td{
+    width:30%;
+    height:60px;
+    border-radius:4px;
+    cursor: pointer;
+    padding:0.5px;
+}
+/* dinh dang cho cac nut "+ - * /" */
+.daupheptinh{
+    text-align: center;
+    background-color: rgb(92,184,92);
+    color: white;
+    font-size:30px;
+    user-select: none;
+}
+.daupheptinh:active{
+    background-color:  rgb(78, 159, 78);
+}
+/* dinh dang cho cac nut so */
+.so{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    background-color: rgb(66,139,202) ;
+    user-select: none;
+}
+.so:active{
+    background-color: rgb(59, 123, 179) ;
+}
+/* dinh dang cho nut . va = */
+.nutdacbiet{
+    text-align: center;
+    color: white;
+    font-size:30px;
+    background-color: rgb(91,192,222);
+    user-select: none;
+}
+.nutdacbiet:active{
+    background-color: rgb(83, 173, 201);
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+        integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+        integrity="sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body style="position:relative">
+    <div id="maytinh">
+        <div>
+            <table id="manhinhhienthi">
+                <tr id="dongpheptinh">
+                    <td id="pheptinh"></td>
+                </tr>
+                <tr id="dongketqua">
+                    <td id="ketqua"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table id="banphim">
+                <tr>
+                    <td>
+                        <button value="CE" id="CE-btn">CE</button>
+                    </td>
+                    <td>
+                        <button value="Del" id="Del-btn">Del</button>
+                    </td>
+                    <td class="daupheptinh">+</td>
+                </tr>
+                <tr>
+                    <td class="daupheptinh">-</td>
+                    <td class="daupheptinh">*</td>
+                    <td class="daupheptinh">/</td>
+                </tr>
+                <tr>
+                    <td class="so">9</td>
+                    <td class="so">8</td>
+                    <td class="so">7</td>
+                </tr>
+                <tr>
+                    <td class="so">6</td>
+                    <td class="so">5</td>
+                    <td class="so">4</td>
+                </tr>
+                <tr>
+                    <td class="so">3</td>
+                    <td class="so">2</td>
+                    <td class="so">1</td>
+                </tr>
+                <tr>
+                    <td class="so">0</td>
+                    <td class="nutdacbiet" id="dauphay">.</td>
+                    <td class="nutdacbiet" id="daubang">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
