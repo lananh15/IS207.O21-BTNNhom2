@@ -1,3 +1,6 @@
+body{
+    position:relative;
+}
 #maytinh{
     position:absolute;
     border:1px solid black;
@@ -25,9 +28,8 @@
     qua muc se hien thi ... */
 #pheptinh{
     overflow:hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
     max-width: 400px;
+    white-space: nowrap;
 }
 /* dinh dang cho cac button CE, DEL */
 button{
