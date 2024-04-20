@@ -1,0 +1,23 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    background-color: rgb(255, 163, 87);
+}
+
+tr td:last-child {
+    width: 150px;
+}
+
+.input {
+    width: 120px;
+}
+
+#submit-btn {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
